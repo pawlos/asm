@@ -1,0 +1,8 @@
+GLIZDA v.1.0
+ ßßßßßßßßßßßßß
+Na czym to polega?
+
+ Gra polega na wrobienie drugiego gracza w bambuko. Nalezy tak kierowac swoja
+glizda ,aby zablokowac droge drugiemu draczowi i aby wpadl on na siebie,
+ciebie lub inna przeszkode na ekranie.
+ Aby przejsc na wyzszy level nalezy zablokowac przeciwnika 5 razy.

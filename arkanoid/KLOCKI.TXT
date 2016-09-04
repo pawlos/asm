@@ -1,0 +1,12 @@
+;255 - po tym bajcie podajemy X,Y
+;238 - koniec danych
+;Wartosci danych:
+;00-brak cegly
+;01-cegla czerwona
+;02-cegla zielona
+;03-cegla niebieska
+;04-cegla zolta
+;05-cegla jasnoniebieska
+;06-cegla fioletowa
+;07-cegla biala
+;inne wartosci niedopuszczalne

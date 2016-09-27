@@ -1,0 +1,13 @@
+KOLORY:
+0-128 - podstawowa paleta
+129 - biaˆa gwiazda
+130 - szara gwiazda
+131 - ciemno-szara gwiazda
+132 - kolor napisu intra
+133 - kolor napsu tytulu gry
+134-149 - paleta dla napisow w menu(podswietlone)-zielony
+150-165 - paleta dla napisow w menu(nie podswietlone)-zolty
+166 - kolor napisu 'KLAWISZE'
+167 - kolor klawiszy
+168 - kolor brazowy
+169-255 - inne

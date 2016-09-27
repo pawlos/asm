@@ -1,0 +1,84 @@
+Strzelanina-tytuˆ Astro Battle!
+
+5 leveli(by† mo¾e wi©cej)
+
+Gracz startuje z energi¥ - 100% i 4 pojazdami kosmicznymi
+
+1. Level
+   1 - du¾y asteroid
+2. Level
+   2 - du¾e asteroidy
+3. Level
+   1 - du¾y asteroid,dwa maˆe
+4. Level
+   2 - du¾e asteroidy,dwa maˆe
+5. Level
+   1 - olbrzymi,2 - du¾e,2 - maˆe
+
+Asteroidy b©da poruszaˆy si© po ekranie,a jednocze˜nie obraca† si© wok¢ˆ
+wˆasnej osi.Po zderzeniu si© z innym asteroidem lub kraw©dzi¥ nast©powa†
+b©dzie odbicie.
+Po zderzeniu ze statkiem gracza ,bedzie odejmowana energia w zale¾no˜ci
+od wielko˜ci asteroidu:
+-20% je¾eli zderzyˆ si© z maˆym
+-40% je¾eli zderzyˆ si© z du¾ym
+-60% je¾eli zderzyˆ sie z olbrzymim
+
+Je¾eli energia zeszˆa do 0 to koniec ¾ycia statku.
+Je¾eli liczba statk¢w = 0 to GAME OVER.
+
+Za zniszczenie asteroidu dodawane s¥ kredyty.
+
+Gracz nie b©dzie miaˆ mo¾liwo˜ci pobrania energii ,ale po ukoäczeniu poziomu
+b©dzie m¢gˆ zreperowa† pojazd za kredyty zdobyte za niszczenie asteroid¢w.
+
+Historia.
+          "Jest rok 2025.Profesor Takomi Namura w swoim tajnym laboratorium
+skonstruowaˆ najsilniejszy generator pola magnetycznego.Uruchamiaj¥† go
+spowodowaˆ, ¾e w stron© Ziemi zacz©ˆy zbli¾a† si© meteoryty z przestrzeni
+kosmicznej.
+            Zostaˆ powoˆany Nadzwycznajny Sztab ,aby zapobiec katastrofie.
+Ty-jako najlepszy pilot wojskowy - dostajesz zadanie zniszczenia meteorty¢w.
+Wyposarzony w najnowszy statek kosmiczny TX-102 ruszasz w kosmos."
+
+Zakoäczenie.
+Je¾eli gracz przebrn¥ˆ przez 5 leveli,wy˜wietlana jest koäcowa historyjka.
+       "Udaˆo ci si© zniszczy† wszystkie meteoryt zbli¾aj¥ce si© do Ziemi.
+Przewodnicz¥cy Nadzywczajnego Sztabu osobi˜cie Ci gratuluje.Jednak¾e,w czasie
+jak ty swi©tujesz zwyci©stwo profesor Takomi Namura konstruowaˆ ju¾ now¥
+jeszcze bardzie ˜mierciono˜n¥ broä ,aby zn¢w zagrozi† Ziemii...."
+
+Dane techniczne.
+Gra b©dzie wykorzystywaˆa tryb 320x200 256 kolor¢w.
+Opiera† si© b©dzie na grafice 2D i metodzie Sprite'¢w.
+W tle b©dzie wy˜wietlany efekt gwiazd.
+Definicje asteroid¢w w pliku aster.def(maˆy,du¾y,olbrzymi);
+Definicje leveli w pliku levels.def.
+Definicje gwiazd w pliku stars.dat.
+Definicja fontu w pliku computer.fnt.
+Tekst historyjki w pliku story.dat.
+
+Zadania:
+-napisa† program w Pascal'u zapisuj¥cy do pliku(aster.def) wszystkie potrzebne
+ dane na temat asteroid¢w(x)
+-napisa† program w Pascal'u zapisuj¥cy do pliku(levels.def) wszystkie potrzebne
+ dane na temat leveli(x)
+
+Etapy powstawania gry:
+-procedury odczytujace z pliku potrzebne dane
+                       - def. asteroidow      (x)
+                       - def. leveli          (x)
+                       - def. gwiazdek        (x)
+                       - tekst poczatkowy     (x)
+                       - tekst koncowy        ( )
+-procedura rozszyfrujaca historyjke           (x)
+-procedura intra
+           - wejscie w tryb graf                        (x)
+           - wyswietlenie gwiazdek w buforze            (x)
+           - wypisanie tekstu po literze do bufora
+             i przesylanie go na ekran                  (x)
+
+-procedura menu
+           - wypisanie tytulu gry(ASTRO BATTLE)         ()
+           - wypisanie dostepnych opcji
+             (START , KLAWISZE , KONIEC)                ()

@@ -1,0 +1,10 @@
+Formaty plikow:
+
+aster.def
+nr_bajtu(d)        |        objasnienie
+--------------------------------------------
+  1-2              |     ilosc wierzcholkow
+  3-4 do n*4       |      wspolrzedne(x,y)
+--------------------------------------------
+
+levels.dat

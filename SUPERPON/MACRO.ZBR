@@ -1,0 +1,164 @@
+;ZBIOR MACRO INSTRUKCJI
+;I wypisuje tekst zawarty w zmiennej txt
+
+PiszTekst MACRO wspX,wspY,color
+	LOCAL	PiszZnak,NieKoniec,Linia,NieKropka,Kropka,Koniec
+	mov	dx,0a000h
+	mov	es,dx
+	push	cs
+	pop	ds
+	;Policz offset punktu, od kt¢rego ma by
+	;wypisany tekst
+	mov	ax,wspY
+	mov	bx,320
+	mul	bx
+	add	ax,wspX
+	mov	di,ax
+	lea	bx,txt   ;BX - offset wzgl‘dem TXT
+PiszZnak:
+	mov	al,cs:[bx]
+	inc	bx
+	cmp	al,0
+	jne	NieKoniec
+	jmp	Koniec
+NieKoniec:
+	xor	ah,ah
+	;Policz offset znaku w tablicy FONT
+	shl	ax,1
+	shl	ax,1
+	shl	ax,1
+	shl	ax,1
+	lea	si,FONT
+	add	si,ax
+	mov	cx,16
+	mov	ah,color
+	push	di
+Linia:	
+	push	di
+	lodsb
+	mov	dl,10000000b
+	mov	dh,8
+Kropka:
+	test	al,dl      ;Jest punkt?
+	jz	NieKropka
+	mov	es:[di],ah
+NieKropka:		
+	inc	di
+	shr	dl,1
+	dec	dh
+	jns	Kropka
+	pop	di
+	add	di,320
+	loop	Linia
+;	mov	ah,86h      	;\
+;	mov	cx,6		; \
+;				;  >jesli chcesz aby litery byly wyswietlane
+;				;  >jedna po drugiej z pewnym opoznieniem
+;				;  >to skasuj sredniki na poczatku tych lini
+;				;  >opoznienie ustawia sie w cx:dx (cx=6,dx=0 ok 1s
+;	mov	dx,0		; /
+;	int	15h		;/
+	pop	di
+	add	di,9
+	jmp	PiszZnak	
+Koniec:
+ENDM
+
+;II kopiuje lancuchy
+kopiuj_lancuchy	MACRO tabz,tabd,ile
+	push	cs
+	pop	ds
+	push	cs
+	pop	es
+	lea	si,tabz
+	lea	di,tabd
+	mov	cx,ile
+	cld
+	rep	movsb
+	mov	al,0
+	stosb
+ENDM
+
+;III wyznacza wartosc bezwzgledna liczby podanej jako parametr
+_Abs	MACRO	co
+	LOCAL	Mskok
+	cmp	co,0
+	jge	Mskok
+	neg	co
+	Mskok:
+ENDM
+
+;IV  otwiera plik 'file' nie obsluguje bledow
+Open_file	MACRO file,uchwyt,tryb ;tryb 0=Read Only,1=For write
+				       ;2=Read and Write
+	mov	ah,3dh		;\
+	mov	al,tryb		; \
+	push	cs		;  \
+	pop	ds		;   >nie posiada obslugi bledow
+	lea	dx,file		;  /
+	int	21h		; /
+	mov	uchwyt,ax	;/
+ENDM
+
+;V rysuje linia pozioma
+Poz_line	MACRO x1,x2,y,col
+		LOCAL one_more
+	cld
+	mov	ax,0a000h
+	mov	es,ax
+	xor	di,di
+	mov	ax,y		;oblicz offset
+	mov	bx,320		;	punktu od
+	mul	bx		;		ktorego zaczniemy
+	add	ax,x1		;			rysowac(ax).
+	mov	di,ax
+	mov	cx,x2		;oblicz ilosc
+	sub	cx,x1		;	punktow lini(cx).
+	mov	al,col
+one_more:
+	stosb
+loop	one_more
+ENDM
+	
+;VI rysuje linie pionawa
+Pion_line	MACRO	y1,y2,x,col
+		LOCAL	rysuj
+	cld	
+	mov	ax,0a000h
+	mov	es,ax
+	xor	di,di
+	mov	ax,y1
+	mov	bx,320
+	mul	bx
+	add	ax,x
+	mov	di,ax
+	mov	cx,y2
+	sub	cx,y1
+	mov	al,col
+rysuj:
+	stosb
+	add	di,319
+loop	rysuj
+ENDM
+
+;VII ustawia palete dla wybranego 1 color'u
+set_pal	MACRO  color,r,g,b
+	mov	dx,03c8h
+	mov	al,color
+	out	dx,al
+	inc	dx
+	mov	al,r
+	out	dx,al
+	mov	al,g
+	out	dx,al
+	mov	al,b
+	out	dx,al
+ENDM
+	
+	
+	
+	
+
+
+
+	

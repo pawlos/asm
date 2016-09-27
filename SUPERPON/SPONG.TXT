@@ -1,0 +1,23 @@
+SUPER PONG v. 1.0
+
+
+
+   STEROWANIE
+    ฿฿฿฿฿฿฿฿฿฿
+
+   Sterowanie jest banalnie proste!
+ออออออออออออออออออออออออออออออออออออออออออ
+Gracz 1 (po lewej stronie) porusza sie klawiszmi:
+
+   <-   =  A     S  =   ->
+ (lewo)                (prawo)
+
+
+
+Gracz 2 (po prawej) porusza sie klawiszami:
+
+   <-   =  K     L  =   ->
+ (lewo)                (prawo)
+ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+บ 14-06-98 16:07:54 บ
+ำฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฝ

@@ -1,0 +1,18 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00000H 00000H GAME_TEXT          CODE
+ 00000H 00000H 00000H _DATA              DATA
+ 00000H 002FFH 00300H STOSIK             STACK
+ 00300H 01250H 00F51H CODE               
+ 01260H 0CB77H 0B918H TABLICE            
+ 0CB80H 167BFH 09C40H SKALUJ             
+ 167C0H 169FFH 00240H FONT               
+ 16A00H 16CFFH 00300H PALETA             
+ 16D00H 17D1FH 01020H ACTUAL_MAP         
+ 17D20H 2771FH 0FA00H MAPY               
+ 27720H 3371FH 0C000H TEXTURE            
+ 33720H 4311FH 0FA00H BUFOR              
+
+Program entry point at 0030:0190
+

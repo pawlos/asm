@@ -1,0 +1,2 @@
+program redukuj_liczbe_kolorow;
+uses crt;

@@ -3,72 +3,72 @@ Few asm sources from the '90s &amp; '00s
 
 
 ## arkanoid ##
-Gra z paletką popularna w latach '90
+Popular ball & paddle game from the '90s
 
 https://www.youtube.com/watch?v=fXJhWc9CncA
 
 
 ## Astro Battle ##
-Zaczątek gry - klon asteroids. Gracz miał poruszać się statkiem i rozbijać pojawiające si ę na jego drodze asteroidy.
+Asteroids clone. Player controls the ship that fly through an asteroids fields.
 
 https://www.youtube.com/watch?v=cXQV8l2w2YU
 
 
 ## fire ##
-Efekt ognia wraz ze scrollem
+Fire effect + scroll
 
 https://www.youtube.com/watch?v=yLJrJ1rYxmg
 
 
 ## glizda ##
-Gra, z poziomami trudności oraz poziomami, podobna do węża - dla dwóch graczy
+Game, with multiple difficulties & levels, simillar to snake but for 2 players.
 
 https://www.youtube.com/watch?v=tuhKgWJM-j4
 
 
 ## gwiazdy ##
-Efekt lecących gwiazd
+Flying stars
 
 https://www.youtube.com/watch?v=sn-z5XL-WSU
 
 
 ## julia ##
-Animacja zbioru Julii
+Animated Julia set
 
 https://www.youtube.com/watch?v=4c4746UfELI
 
 
 ## KOPRO ##
-Kilka efektów z użyciem koprocesora matematycznego i podmiany palety
+Few gfx effects with cooprocessor and color palette.
 
 https://www.youtube.com/watch?v=VzHJXmbfB7w
 
 
 ## ray casting ##
-Inspirowany Wolfenstein'em 3D raycaster .
+Wolfenstein 3D inspired raycaster.
 
 https://www.youtube.com/watch?v=OCW4EKDYkHU
 
 
 ## retropong ##
-Gra - zamieszczona w Kompedium wiedzy Secret Service'u nr 2
+Game - taken from 2nd Kompedium wiedzy Secret Service'u 
 
 https://www.youtube.com/watch?v=zoOPUa-0cqc
 
 
 ## scroll ##
-Efekt scrola pionowego
+Vertical scroll
 
 https://www.youtube.com/watch?v=mmgCtxba2vw
 
 
 ## Superpon ##
-Połączenie kilku wcześniejszych źródeł w coś co można nazwać grą
+Compilation of few effects that might be called a game.
 
 https://www.youtube.com/watch?v=otbt8ImCfPI
 
 
 ## unknown ##
-Zakusy napisana swojego silnika do Raycastingu
+Own raycasting engine - not completed.
 
 https://www.youtube.com/watch?v=P-3b20jPENU

@@ -1,0 +1,21 @@
+Proszã o nie przyciskanie innych klawiszy niê jest to moêliwe , poniewaê gra
+czasem zawiesza siã.Naleêy najpierw dobrze siã zastanowiä a nastãpnie
+przycisnaä przycisk ,ktéry bãdzie odpowiadaå naszej decyzji.
+
+WALKA.
+
+Walka odbywa sie w sposéb ekspresowy i gracz nie bierze w niej udziaåu.
+Komputer sam okreèla ,kto wygra , stosujâc wåasny algorytm walki.
+
+KLAWISZE.
+    Podczas gry ,gdy program czeka na reakcjã gracza,aktywne sâ nastepujâce
+klawisze:
+ '-'  -  zmniejszenie jasnoèci wyèwietlanych znakéw.
+ '='  -  zwiãkszenie jasnoèci  wyèwietlanych znakéw.
+ 'l'  -  wyèwietla aktualny spis ekwipunku niesionego przez gracza.
+ 'c'  -  wyèwietla charakterystykã postaci(wytrzymaåoèä,zrãcznoèä,szczãècie itp)
+ ESC  -  wyjècie do menu gåéwnego.
+
+Podczas wypisywania tekstu, aktywne sâ nastãpujâce klawisze:
+ '['  -  zmniejszenie prãdkoèci wyèwietlania znakéw.
+ ']'  -  zwiãkszenie prãdkoèci wyèwietlania znakéw.È

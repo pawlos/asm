@@ -1,0 +1,24 @@
+Spis plikow do gry tekstowej "DRESZCZ".
+---------------------------------------
+
+nazwa pliku:            opis pliku:
+
+\                       - glowny katalog gry
+spis_p.txt              - wlasnie czytasz ten plik
+dreszcz.exe             - plik uruchamiajacy
+info.dat                - plik z danymi
+dreszcz.log             - plik z danymi
+
+\TEKSTY                 - podkatalog
+001.dat .. 387.dat      - pliki tekstowe
+
+10a.dat,10b.dat
+11a.dat,11b.dat         - dodatkowe pliki tekstowe
+aaa.dat,bbb,dat
+
+JESLI SA JAKIES ROZNICE W ULOZENIU TYCH PLIKOW GRA MOZE DZIALAC NIEPRAWIDLOWO!
+
+Po uruchomioniu nalezy najpierw przycisnac 2 ,aby dowiedziec sie kilku
+uwag o grze.
+
+18:56 1998.10.29

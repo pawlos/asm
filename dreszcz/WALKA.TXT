@@ -1,0 +1,11 @@
+Jesli bedzie znaczek "ë" oznacza walke.
+Po znaczku bedzie Wytrzymalesc i zrecznosc przeciwnika.
+Sila ataku przeciwnika=1/100 s + Z(A)
+Sila ataku gracza=1/100 s + Z(B)
+IF A>B gracz ranny
+IF A<B wrog ranny
+IF A=B to remis
+Petla ma byc wykonywana tak dlugo dopoki
+ W1<=0(wrog) lub W2<=0(gracz)
+Po Wygranej walce gracz moze czytac dalej.
+Jesli przegral to wyjscie do MENU.

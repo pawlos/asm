@@ -5,7 +5,7 @@ Few asm sources from the '90s &amp; '00s
 ## arkanoid ##
 Popular ball & paddle game from the '90s
 
-📺 https://www.youtube.com/watch?v=fXJhWc9CncA
+📺 https://www.youtube.com/watch?v=fXJhWc9CncA \
 🕹 https://pawlos.github.io/arkanoid/index.html
 
 ## Astro Battle ##
@@ -17,7 +17,7 @@ Asteroids clone. Player controls the ship that fly through an asteroids fields.
 ## fire ##
 Fire effect + scroll
 
-📺 https://www.youtube.com/watch?v=yLJrJ1rYxmg
+📺 https://www.youtube.com/watch?v=yLJrJ1rYxmg \
 🕹 https://pawlos.github.io/fire/index.html
 
 
@@ -72,5 +72,5 @@ Compilation of few effects that might be called a game.
 ## unknown ##
 Own raycasting engine - not completed.
 
-📺 https://www.youtube.com/watch?v=P-3b20jPENU
+📺 https://www.youtube.com/watch?v=P-3b20jPENU \
 🕹 https://pawlos.github.io/unknown/index.html

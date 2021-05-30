@@ -63,7 +63,7 @@ Vertical scroll
 📺 https://www.youtube.com/watch?v=mmgCtxba2vw
 
 
-## Superpon ##
+## Superpong ##
 Compilation of few effects that might be called a game.
 
 📺 https://www.youtube.com/watch?v=otbt8ImCfPI

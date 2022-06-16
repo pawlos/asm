@@ -13,6 +13,8 @@ Asteroids clone. Player controls the ship that fly through an asteroids fields.
 
 📺 https://www.youtube.com/watch?v=cXQV8l2w2YU
 
+## Dreszcz ##
+Implementation of one of the paragraph games called 'Dreszcz'.
 
 ## fire ##
 Fire effect + scroll
